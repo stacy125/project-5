@@ -1,0 +1,63 @@
+
+.flex-container  {
+    display: flexbox;
+    border: black solid 2px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+    background-color: darkblue;
+    color: #fff;
+    width: 300px;
+    /* margin: 50px 100px; */
+}
+.image-container {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
+    height: 200px;
+    z-index: 5px;
+}
+
+
+.submit {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px 25px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: chartreuse;
+    color: brown;
+    cursor: pointer;
+}
+
+input {
+    display: inline-block;
+    position: relative;
+    border: 2px solid  chartreuse;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.height {
+    border: none;
+}
+
+
+.name {
+    text-align: center;
+}
+
+
+.attribute-container {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.button-container {
+    text-align: center;
+}
